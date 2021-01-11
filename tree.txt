@@ -1,0 +1,32 @@
+.
+│   .DS_Store
+│   .gitignore
+│   package-lock.json
+│   package.json...
+├───Backend
+│   │   index.js...
+│   ├───build              
+│   └───Database   
+└───Client
+    │   package.json
+    │   requirements.txt... 
+    ├───public
+    └───src
+        │   App.js
+        │   Footer.js
+        │   Header.js
+        │   HomePage.js
+        │   index.js...
+        ├───About       
+        ├───Academic
+        ├───Donate
+        ├───Employment  
+        ├───Login
+        ├───News
+        ├───People
+        ├───pictures
+        ├───ProspectivePages
+        ├───Research
+        └───static
+
+                
