@@ -10,14 +10,12 @@ app.use(express.json());
 app.use(cors())
 
 
-
 const db = mysql.createConnection(
   {
-    user:"cs307-group01",
-    host:"localhost",
-    password: "ng8DCt2qSa7rXHEP",
-    database:"cs307-group01-DB",
-    port: 3306
+    user:"b7d66ced10f51d",
+    host:"us-cdbr-east-03.cleardb.com",
+    password: "e256dcc3",
+    database:"heroku_99681f4d092d314"
   }
 );
 
@@ -169,8 +167,13 @@ console.log(port);
 */
 
 //const port  = process.env.PORT || 3001;
-app.listen(3001,()=>{
-  console.log("running on port 3001");
+// app.listen(3001,()=>{
+//   console.log("running on port 3001");
+// });
+
+// heroku port 
+app.listen(process.env.PORT || PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
 
 module.exports = app;
