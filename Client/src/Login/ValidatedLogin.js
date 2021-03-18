@@ -23,7 +23,7 @@ function ValidatedLogin(props) {
     <Formik
       initialValues={{ email: "", password: "", LoginStatus: "" }}
       onSubmit={(values, { setSubmitting, setFieldValue, setErrors }) => {
-        Axios.post("http://fall2020-comp307.cs.mcgill.ca:3001/login", {
+        Axios.post("https://mcgill-cs.herokuapp.com//login", {
           username: values.email,
           password: values.password,
         }).then((response) => {

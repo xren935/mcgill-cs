@@ -113,7 +113,7 @@ const createPage = () => {
   //console.log(page);
   //console.log("Seesion:", Session.get());
   var username = Session.get().payload.username;
-  Axios.post("http://fall2020-comp307.cs.mcgill.ca:3001/CreatePage", {
+  Axios.post("https://mcgill-cs.herokuapp.com/CreatePage", {
     Username: username,
     CustomPage: page
   }).then((response) => {
@@ -131,7 +131,7 @@ const createPage = () => {
 const DeletePage = () => {
 
   var username = Session.get().payload.username;
-  Axios.post("http://fall2020-comp307.cs.mcgill.ca:3001/DeletePage", {
+  Axios.post("https://mcgill-cs.herokuapp.com/DeletePage", {
     Username: username,
   }).then((response) => {
     if (response.data.message) {
@@ -158,7 +158,7 @@ const saveChange = () => {
   }
   //console.log("changed content:", text);
   var username = Session.get().payload.username;
-  Axios.post("http://fall2020-comp307.cs.mcgill.ca:3001/changecontent", {
+  Axios.post("https://mcgill-cs.herokuapp.com/changecontent", {
     Username: username,
     changedname: name,
     changedage: age,

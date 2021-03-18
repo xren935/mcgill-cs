@@ -172,7 +172,7 @@ console.log(port);
 // });
 
 // heroku port 
-app.listen(process.env.PORT || PORT, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
