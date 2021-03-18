@@ -12,10 +12,11 @@ app.use(cors())
 
 const db = mysql.createConnection(
   {
-    user:"b8b66dc7043075",
+    user:"b398964d6c00a0",
     host:"us-cdbr-east-03.cleardb.com",
-    password: "ede5a8fa",
-    database:"heroku_d57188f6d416032"
+    password: "561fefff",
+    database:"heroku_a1e45dd8067fb3f"
+    // mysql://b398964d6c00a0:561fefff@us-cdbr-east-03.cleardb.com/heroku_a1e45dd8067fb3f?reconnect=true
   }
 );
 
