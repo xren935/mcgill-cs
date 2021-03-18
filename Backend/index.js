@@ -12,10 +12,10 @@ app.use(cors())
 
 const db = mysql.createConnection(
   {
-    user:"b7d66ced10f51d",
+    user:"b8b66dc7043075",
     host:"us-cdbr-east-03.cleardb.com",
-    password: "e256dcc3",
-    database:"heroku_99681f4d092d314"
+    password: "ede5a8fa",
+    database:"heroku_d57188f6d416032"
   }
 );
 
@@ -172,8 +172,11 @@ console.log(port);
 // });
 
 // heroku port 
+const PORT = process.env.PORT || '8080';
+
 app.listen(process.env.PORT || 3000, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`Server running on port process.env.PORT`);
 });
+app.set("port", PORT);
 
 module.exports = app;
