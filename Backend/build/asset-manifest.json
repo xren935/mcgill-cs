@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.eecdca68.chunk.css",
-    "main.js": "./static/js/main.989680a8.chunk.js",
-    "main.js.map": "./static/js/main.989680a8.chunk.js.map",
+    "main.css": "./static/css/main.5288d3be.chunk.css",
+    "main.js": "./static/js/main.f72c347a.chunk.js",
+    "main.js.map": "./static/js/main.f72c347a.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.b306b182.js",
     "runtime-main.js.map": "./static/js/runtime-main.b306b182.js.map",
     "static/css/2.47891d2d.chunk.css": "./static/css/2.47891d2d.chunk.css",
-    "static/js/2.04469647.chunk.js": "./static/js/2.04469647.chunk.js",
-    "static/js/2.04469647.chunk.js.map": "./static/js/2.04469647.chunk.js.map",
+    "static/js/2.5108d06b.chunk.js": "./static/js/2.5108d06b.chunk.js",
+    "static/js/2.5108d06b.chunk.js.map": "./static/js/2.5108d06b.chunk.js.map",
     "static/js/3.004944e3.chunk.js": "./static/js/3.004944e3.chunk.js",
     "static/js/3.004944e3.chunk.js.map": "./static/js/3.004944e3.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.47891d2d.chunk.css.map": "./static/css/2.47891d2d.chunk.css.map",
-    "static/css/main.eecdca68.chunk.css.map": "./static/css/main.eecdca68.chunk.css.map",
-    "static/js/2.04469647.chunk.js.LICENSE.txt": "./static/js/2.04469647.chunk.js.LICENSE.txt",
+    "static/css/main.5288d3be.chunk.css.map": "./static/css/main.5288d3be.chunk.css.map",
+    "static/js/2.5108d06b.chunk.js.LICENSE.txt": "./static/js/2.5108d06b.chunk.js.LICENSE.txt",
     "static/media/Donate.bfeb8606.jpg": "./static/media/Donate.bfeb8606.jpg",
     "static/media/admission.2744b067.png": "./static/media/admission.2744b067.png",
     "static/media/blanchette.5fc8056d.jpg": "./static/media/blanchette.5fc8056d.jpg",
@@ -34,7 +34,6 @@
     "static/media/research-compute.7af71978.jpg": "./static/media/research-compute.7af71978.jpg",
     "static/media/research-game.aca2bfdb.jpg": "./static/media/research-game.aca2bfdb.jpg",
     "static/media/research-graph.4ca55141.jpg": "./static/media/research-graph.4ca55141.jpg",
-    "static/media/research-human.932d6219.png": "./static/media/research-human.932d6219.png",
     "static/media/research-lang.b3d3e93c.jpg": "./static/media/research-lang.b3d3e93c.jpg",
     "static/media/research-network.fb4aa4ee.jpg": "./static/media/research-network.fb4aa4ee.jpg",
     "static/media/research-robot.bf9eda4b.jpg": "./static/media/research-robot.bf9eda4b.jpg",
@@ -44,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.b306b182.js",
     "static/css/2.47891d2d.chunk.css",
-    "static/js/2.04469647.chunk.js",
-    "static/css/main.eecdca68.chunk.css",
-    "static/js/main.989680a8.chunk.js"
+    "static/js/2.5108d06b.chunk.js",
+    "static/css/main.5288d3be.chunk.css",
+    "static/js/main.f72c347a.chunk.js"
   ]
 }
